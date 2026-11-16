@@ -1,0 +1,176 @@
+Python 3.14.3 (v3.14.3:323c59a5e34, Feb  3 2026, 11:41:37) [Clang 16.0.0 (clang-1600.0.26.6)] on darwin
+Enter "help" below or click "Help" above for more information.
+WARNING: The system preference "Prefer tabs when opening documents" is set to
+"Always". This will cause various problems with IDLE. For the best experience,
+change this setting when running IDLE (via System Preferences -> Dock).
+x=10
+SyntaxError: invalid syntax
+x=10
+x= {"id":01,"name":"Ahmed","dept":"IT","location":203}
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+x= {"id": 1,"name":"Ahmed","dept":"IT","location":203}
+for i in x.key():
+    print (i + "value is" + x[i])
+
+    
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    for i in x.key():
+AttributeError: 'dict' object has no attribute 'key'. Did you mean: 'keys'?
+for i in x.keys():
+    print (i + "value is" + x[i])
+
+    
+Traceback (most recent call last):
+  File "<pyshell#8>", line 2, in <module>
+    print (i + "value is" + x[i])
+TypeError: can only concatenate str (not "int") to str
+for i in x.key():
+    print (i  "value is" x[i])
+    
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+for i in x.key():
+    print (i , "value is" , x[i])
+
+    
+Traceback (most recent call last):
+  File "<pyshell#11>", line 1, in <module>
+    for i in x.key():
+AttributeError: 'dict' object has no attribute 'key'. Did you mean: 'keys'?
+for i in x.keys():
+    print (i , "value is" , x[i])
+
+    
+id value is 1
+name value is Ahmed
+dept value is IT
+location value is 203
+x=range(0,50)
+x=range(0,50,2)
+for i in x:
+    print[i]
+
+    
+Traceback (most recent call last):
+  File "<pyshell#18>", line 2, in <module>
+    print[i]
+TypeError: 'builtin_function_or_method' object is not subscriptable
+for i in x:
+    print(i)
+
+    
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+22
+24
+26
+28
+30
+32
+34
+36
+38
+40
+42
+44
+46
+48
+y=[]
+for i in x:
+    y = print(i)
+
+    
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+22
+24
+26
+28
+30
+32
+34
+36
+38
+40
+42
+44
+46
+48
+for i in x:
+    y=i
+    print(y)
+
+    
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+22
+24
+26
+28
+30
+32
+34
+36
+38
+40
+42
+44
+46
+48
+>>> for i in x:
+...     y=[i]
+...     print(y)
+... 
+...     
+[0]
+[2]
+[4]
+[6]
+[8]
+[10]
+[12]
+[14]
+[16]
+[18]
+[20]
+[22]
+[24]
+[26]
+[28]
+[30]
+[32]
+[34]
+[36]
+[38]
+[40]
+[42]
+[44]
+[46]
+[48]
